@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace CombatSimulatiorV2
 {
+    
     class Program
     {
+        public static int pause = 50;
         static void Main(string[] args)
         {
             Game game = new Game();
@@ -36,6 +38,8 @@ namespace CombatSimulatiorV2
                 return false;
             }
         }
+        //public bool IsAlive { get { return this.HP > 0; } }
+
         //random number generator property
         public Random RNG { get; set; }
         /// <summary>
