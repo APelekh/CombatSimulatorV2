@@ -392,7 +392,7 @@ In hardcore version, dragon is stronger and few new features added. You will fig
             if (counter == 1)
             {
                 //prints out a reminder message
-                Console.WriteLine("\nReminder about choises: ");
+                Console.WriteLine("\nReminder about choices: ");
                 Console.WriteLine("1 - Sword, 2 - Magic, 3 - Heal");
             }
         }
